@@ -1,3 +1,4 @@
-feh --bg-center ~/Downloads/wp5848451-black-minimalist-hd-wallpapers.jpg
+feh --bg-center ~/Downloads/wp5848451-black-minimalist-hd-wallpapers
+modbar &
 
 
