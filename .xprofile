@@ -1,4 +1,5 @@
 feh --bg-center ~/Downloads/wp5848451-black-minimalist-hd-wallpapers.jpg
 modbar &
+xrandr --output HDMI-0 --mode 1920x1080 --rate 74.97
 
 
