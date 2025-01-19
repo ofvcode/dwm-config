@@ -1,3 +1,8 @@
 feh --bg-center ~/Downloads/wp5848451-black-minimalist-hd-wallpapers.jpg
 dwmstatus 2>&1 >/dev/null &
 picom
+
+while true; do
+	xsetroot -name "$(date)"
+	sleep 2
+done
