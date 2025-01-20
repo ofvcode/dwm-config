@@ -140,6 +140,7 @@ typedef struct {
 } Rule;
 
 /* function declarations */
+static int attachbelow = 0;
 static void applyrules(Client *c);
 static int applysizehints(Client *c, int *x, int *y, int *w, int *h, int interact);
 static void arrange(Monitor *m);
@@ -422,14 +423,7 @@ attachBelow(Client *c)
 
 }
 
-void
-attachbottom(Client *c)
-{
-	Client **tc;
-	c->next = NULL;
-	for (tc = &c->mon->clients; *tc; tc = &(*tc)->next);
-	*tc = c;
-}
+
 
 void
 attachbottom(Client *c)
